@@ -290,33 +290,6 @@ p { margin: 0 0 1em; }
 
 .photo.has-photo .photo-label { display: none; }
 
-/* ---------- Features ---------- */
-
-.features {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
-  text-align: center;
-}
-
-.feature svg {
-  width: 60px;
-  height: 60px;
-  margin: 0 auto 1rem;
-  fill: none;
-  stroke: var(--soil);
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.feature .fill-peach-soft { fill: var(--peach-soft); }
-.feature .fill-leaf { fill: var(--sage); }
-.feature .fill-barn { fill: var(--barn); stroke: var(--barn-dark); }
-.feature .stroke-cream { stroke: var(--cream); }
-
-.feature p { color: var(--muted); margin: 0; }
-
 /* ---------- Vet ---------- */
 
 .vet-card {
@@ -444,7 +417,6 @@ p { margin: 0 0 1em; }
 @media (max-width: 900px) {
   .services { grid-template-columns: 1fr; max-width: 520px; margin-inline: auto; }
   .gallery { grid-template-columns: repeat(2, 1fr); }
-  .features { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; }
 }
 
 @media (max-width: 760px) {

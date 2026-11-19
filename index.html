@@ -67,12 +67,12 @@
             <path d="M6 66V46l4-4h16l4 4v20"/>
             <path d="M52 66V40l4-4h38l4 4v26"/>
             <path d="M64 36V24l4-4h14l4 4v12"/>
-            <path d="M120 66V46l4-4h18l4 4v20"/>
+            <path d="M120 66V46l4-4h16l4 4v20"/>
           </g>
-          <!-- open bays and doors -->
-          <path d="M68 48h11v18H68Z" fill="#2e2320"/>
-          <path d="M56 46h12v20H56Z" fill="#9b3c33" stroke="#b9584c" stroke-width="0.6"/>
-          <path d="M124 49h16v17h-16Z" fill="#2e2320"/>
+          <!-- closed outer doors (center seam) -->
+          <path d="M18 45v21M132 45v21" stroke="#7a2b24" stroke-width="0.8"/>
+          <!-- large open center bay -->
+          <path d="M58 42h34v24H58Z" fill="#2e2320"/>
           <!-- vent near the peak -->
           <path d="M71.5 17v-4.5a3.5 3.5 0 0 1 7 0V17Z" fill="#6e2a23" stroke="#b9584c" stroke-width="0.6"/>
           <!-- roof edge (rake) -->
@@ -110,31 +110,8 @@
       </div>
     </section>
 
-    <!-- HIGHLIGHTS -->
-    <section class="section section-tint">
-      <div class="container">
-        <div class="features">
-          <div class="feature">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M3 38c8-9 14-12 21-12s13 3 21 12Z" class="fill-leaf"/><path d="M3 38c8-9 14-12 21-12s13 3 21 12" /><circle cx="35" cy="13" r="5" /></svg>
-            <h3>Open Pasture</h3>
-            <p>Rolling Upstate fields with room for horses to graze and roam.</p>
-          </div>
-          <div class="feature">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 42V22l5-10 12-6 12 6 5 10v20Z" class="fill-barn"/><path d="M17 42V30h14v12M17 30l14 12M31 30 17 42" class="stroke-cream"/></svg>
-            <h3>A Family Place</h3>
-            <p>A working family farm where horses, land, and people are all cared for.</p>
-          </div>
-          <div class="feature">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 42s-15-9-15-20a8 8 0 0 1 15-4 8 8 0 0 1 15 4c0 11-15 20-15 20Z" class="fill-peach-soft"/><path d="M24 20v11M18.5 25.5h11" /></svg>
-            <h3>Home of Magnolia Equine</h3>
-            <p>The farm is home base for Magnolia Equine Veterinary Services.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- MAGNOLIA EQUINE VETERINARY SERVICES -->
-    <section class="section" id="vet">
+    <section class="section section-tint" id="vet">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Magnolia Equine Veterinary Services</p>
@@ -179,7 +156,7 @@
     </section>
 
     <!-- GALLERY — drop images/gallery-1.jpg … gallery-6.jpg into the images folder -->
-    <section class="section section-tint" id="gallery">
+    <section class="section" id="gallery">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Gallery</p>
@@ -197,7 +174,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="section" id="contact">
+    <section class="section section-tint" id="contact">
       <div class="container split">
         <div class="split-text">
           <p class="eyebrow">Contact</p>
