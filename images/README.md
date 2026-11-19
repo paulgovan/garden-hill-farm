@@ -8,6 +8,8 @@ Drop photos into this folder using these exact filenames and they will show up o
 | `farm.jpg`      | "The Farm" section                      | Portrait (4:5)         |
 | `gallery-1.jpg` … `gallery-6.jpg` | Gallery grid          | Landscape (4:3)        |
 
+Original camera files (`IMG_*`) are kept here for reference but are ignored by git, so they're never published. Only the edited, resized copies above go on the site, and those have their location/camera metadata stripped.
+
 Tips:
 - Keep each file under about 500 KB so the page loads quickly (resize to ~2000 px wide for the hero, ~1200 px for the rest).
 - Filenames are case-sensitive on GitHub Pages: use `hero.jpg`, not `Hero.JPG`.

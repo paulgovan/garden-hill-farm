@@ -205,7 +205,9 @@ p { margin: 0 0 1em; }
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(40, 30, 22, 0.55) 0%, rgba(40, 30, 22, 0.2) 55%, rgba(40, 30, 22, 0.45) 100%);
+  background:
+    linear-gradient(90deg, rgba(30, 22, 16, 0.5) 0%, rgba(30, 22, 16, 0.15) 55%, transparent 75%),
+    linear-gradient(180deg, rgba(40, 30, 22, 0.35) 0%, rgba(40, 30, 22, 0.1) 45%, rgba(40, 30, 22, 0.45) 100%);
   display: none;
 }
 
@@ -230,7 +232,7 @@ p { margin: 0 0 1em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.85rem; }
 
 /* When a real hero photo is added */
-.hero.has-photo { align-items: flex-end; }
+.hero.has-photo { align-items: flex-end; background-color: #4d5c3f; background-position: 60% 55%; }
 .hero.has-photo .hero-scene { display: none; }
 .hero.has-photo .hero-overlay { display: block; }
 .hero.has-photo .hero-content { padding-bottom: clamp(3rem, 10vh, 6rem); }

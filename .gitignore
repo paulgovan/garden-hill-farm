@@ -1,2 +1,4 @@
 .DS_Store
 .claude/
+# Original camera photos (large, may contain GPS data); only edited copies are published
+images/IMG_*
