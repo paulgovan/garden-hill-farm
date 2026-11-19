@@ -1,6 +1,6 @@
 # Garden Hill Farm
 
-Website for Garden Hill Farm, a horse farm in Lyman, South Carolina, and the home of Manolia Equine Veterinary Services.
+Website for Garden Hill Farm, a family farm (and former peach farm) in Lyman, South Carolina, and the home of [Magnolia Equine Veterinary Services](https://magnoliaequinevet.com).
 
 It's a plain static site (HTML, CSS, a little JavaScript) with no build step, so it runs on GitHub Pages as-is.
 
@@ -15,12 +15,13 @@ images/             Put photos here (see images/README.md)
 .nojekyll           Tells GitHub Pages to serve files as-is
 ```
 
-## Before going live
+## To do
 
-Search `index.html` for `TODO` and fill in:
+Search `index.html` for `TODO`:
 
-- Phone number and email in the Contact section
-- The list of veterinary services (confirm it matches what Manolia offers)
+- Add family history to the "Our Story" section (when the peach orchard was planted, when the family came to the farm, etc.)
+
+Vet details (Dr. Govan, services, phone, email) come from magnoliaequinevet.com. If they change there, update them here too.
 
 ## Adding photos
 

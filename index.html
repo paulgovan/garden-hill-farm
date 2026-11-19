@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Garden Hill Farm | Lyman, South Carolina</title>
-  <meta name="description" content="Garden Hill Farm is a horse farm in Lyman, South Carolina, and the home of Manolia Equine Veterinary Services.">
+  <title>Garden Hill Farm | A Family Farm in Lyman, South Carolina</title>
+  <meta name="description" content="Garden Hill Farm is a family farm in Lyman, South Carolina. Once a peach farm, it is now home to our horses and to Magnolia Equine Veterinary Services.">
   <meta property="og:title" content="Garden Hill Farm | Lyman, SC">
-  <meta property="og:description" content="A horse farm in Lyman, South Carolina, and the home of Manolia Equine Veterinary Services.">
+  <meta property="og:description" content="A family farm in Lyman, South Carolina. Once a peach farm, now home to Magnolia Equine Veterinary Services.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -19,44 +19,79 @@
   <header class="site-header" id="top">
     <nav class="nav container" aria-label="Main">
       <a class="brand" href="#top" aria-label="Garden Hill Farm home">
-        <img src="assets/logo.svg" alt="" width="40" height="40">
+        <img src="assets/logo.svg" alt="" width="44" height="44">
         <span>Garden Hill Farm</span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#farm">The Farm</a></li>
-        <li><a href="#vet">Veterinary Services</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#vet">Magnolia Equine</a></li>
         <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#visit" class="nav-cta">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <!-- HERO — add images/hero.jpg and it will appear automatically -->
+    <!-- HERO — add images/hero.jpg and it replaces the illustration automatically -->
     <section class="hero" data-photo="images/hero.jpg">
       <div class="hero-overlay"></div>
+
+      <svg class="hero-scene" viewBox="0 0 1440 560" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <!-- sun -->
+        <circle cx="1130" cy="150" r="70" fill="#fbd3a8" opacity="0.9"/>
+        <!-- far hill -->
+        <path d="M0 330 C 220 250 420 260 640 300 S 1080 230 1440 280 V560 H0Z" fill="#b7c79a"/>
+        <!-- barn on the hill -->
+        <g transform="translate(770 170) scale(2.4)">
+          <path d="M9 57V31l7-14 16-8 16 8 7 14v26Z" fill="#a8322b" stroke="#7d231f" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M6 32 15.5 15 32 7l16.5 8L58 32" fill="none" stroke="#fbf6ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="27" y="19" width="10" height="9" fill="#fbf6ee"/>
+          <path d="M27 19l10 9M37 19l-10 9" stroke="#a8322b" stroke-width="1.3"/>
+          <rect x="21" y="36" width="22" height="21" fill="#8e2a24" stroke="#fbf6ee" stroke-width="2"/>
+          <path d="M32 36v21M21 36l11 10.5L43 36M21 57l11-10.5L43 57" fill="none" stroke="#fbf6ee" stroke-width="1.4"/>
+        </g>
+        <!-- near hill -->
+        <path d="M0 400 C 260 340 520 360 760 395 S 1200 370 1440 350 V560 H0Z" fill="#8fa874"/>
+        <!-- peach trees -->
+        <g class="trees">
+          <g transform="translate(120 330)"><rect x="-5" y="20" width="10" height="44" rx="3" fill="#6b4d36"/><circle r="42" fill="#6f8a5a"/><circle cx="-14" cy="-8" r="6" fill="#f0a172"/><circle cx="12" cy="-16" r="6" fill="#f0a172"/><circle cx="18" cy="8" r="6" fill="#f0a172"/><circle cx="-6" cy="14" r="6" fill="#f0a172"/></g>
+          <g transform="translate(250 320)"><rect x="-5" y="20" width="10" height="44" rx="3" fill="#6b4d36"/><circle r="38" fill="#7a9663"/><circle cx="-12" cy="-10" r="6" fill="#f0a172"/><circle cx="14" cy="-4" r="6" fill="#f0a172"/><circle cx="0" cy="16" r="6" fill="#f0a172"/></g>
+          <g transform="translate(380 335)"><rect x="-5" y="20" width="10" height="44" rx="3" fill="#6b4d36"/><circle r="40" fill="#6f8a5a"/><circle cx="-16" cy="2" r="6" fill="#f0a172"/><circle cx="10" cy="-14" r="6" fill="#f0a172"/><circle cx="16" cy="12" r="6" fill="#f0a172"/></g>
+          <g transform="translate(500 350)"><rect x="-5" y="20" width="10" height="44" rx="3" fill="#6b4d36"/><circle r="36" fill="#7a9663"/><circle cx="-12" cy="-8" r="6" fill="#f0a172"/><circle cx="12" cy="-12" r="6" fill="#f0a172"/><circle cx="6" cy="14" r="6" fill="#f0a172"/></g>
+          <g transform="translate(1290 310)"><rect x="-5" y="20" width="10" height="44" rx="3" fill="#6b4d36"/><circle r="40" fill="#7a9663"/><circle cx="-12" cy="-12" r="6" fill="#f0a172"/><circle cx="14" cy="-2" r="6" fill="#f0a172"/><circle cx="-4" cy="16" r="6" fill="#f0a172"/></g>
+        </g>
+        <!-- front field -->
+        <path d="M0 470 C 300 430 640 445 900 460 S 1260 440 1440 430 V560 H0Z" fill="#6f8a5a"/>
+        <!-- fence -->
+        <g stroke="#fbf6ee" stroke-width="5" stroke-linecap="round" opacity="0.9">
+          <path d="M540 448 H1440 M540 478 H1440"/>
+          <path d="M560 432v64M700 432v64M840 432v64M980 432v64M1120 432v64M1260 432v64M1400 432v64"/>
+        </g>
+      </svg>
+
       <div class="hero-content container">
-        <p class="eyebrow">Lyman, South Carolina</p>
+        <p class="eyebrow">A family farm in Lyman, South Carolina</p>
         <h1>Garden Hill Farm</h1>
-        <p class="lede">A horse farm in the Upstate, and home of<br><strong>Manolia Equine Veterinary Services</strong>.</p>
+        <p class="lede">Once a peach farm, now home to our family, our horses, and <a href="#vet">Magnolia Equine Veterinary Services</a>.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#vet">Veterinary Services</a>
-          <a class="btn btn-ghost" href="#visit">Get in Touch</a>
+          <a class="btn btn-primary" href="#story">Our Story</a>
+          <a class="btn btn-outline" href="#vet">Magnolia Equine</a>
         </div>
       </div>
     </section>
 
-    <!-- THE FARM -->
-    <section class="section" id="farm">
+    <!-- OUR STORY -->
+    <section class="section" id="story">
       <div class="container split">
         <div class="split-text">
-          <p class="eyebrow">The Farm</p>
-          <h2>Rooted in the Upstate</h2>
-          <p>Set in the rolling countryside of Lyman, South Carolina, Garden Hill Farm is a place built around horses: open pasture, quiet barns, and the everyday care that keeps them healthy and content.</p>
-          <p>The farm is also home base for Manolia Equine Veterinary Services, so the same commitment to good horsemanship you see in our fields carries through to the care we offer horses and owners across the region.</p>
+          <p class="eyebrow">Our Story</p>
+          <h2>From peach orchard to family farm</h2>
+          <!-- TODO: Add family history here: when the family came to the farm, when the peaches were grown, who lives here now, etc. -->
+          <p>Before there were horses in the pasture, these Upstate hills were planted in peach trees. Garden Hill Farm grew up in South Carolina's peach country, and the orchard years are still part of who we are.</p>
+          <p>Today it's our family farm: a place to raise horses, look after the land, and enjoy a slower, country pace of life. It's also home base for Magnolia Equine Veterinary Services, which cares for horses all across the region.</p>
         </div>
         <div class="photo photo-tall" data-photo="images/farm.jpg" role="img" aria-label="Garden Hill Farm">
           <span class="photo-label">Farm photo coming soon</span>
@@ -69,67 +104,65 @@
       <div class="container">
         <div class="features">
           <div class="feature">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 38c8-10 14-14 20-14s12 4 20 14" /><path d="M10 38c5-6 9-8 14-8s9 2 14 8" /><circle cx="36" cy="12" r="5" /></svg>
-            <h3>Open Pasture</h3>
-            <p>Green Upstate fields with plenty of room for horses to graze and move.</p>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="28" r="14" class="fill-peach"/><path d="M24 14c0 8-2 18 0 28" /><path d="M24 14c3-6 9-8 14-7-2 6-8 9-14 7Z" class="fill-leaf"/></svg>
+            <h3>Peach Farm Roots</h3>
+            <p>The land was a peach farm before it was a horse farm, and we're proud of that history.</p>
           </div>
           <div class="feature">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 22 24 8l18 14" /><path d="M10 20v20h28V20" /><path d="M19 40V28h10v12" /></svg>
-            <h3>Thoughtful Care</h3>
-            <p>Day-to-day horsemanship focused on the health and comfort of every horse.</p>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 42V22l5-10 12-6 12 6 5 10v20Z" class="fill-barn"/><path d="M17 42V30h14v12M17 30l14 12M31 30 17 42" class="stroke-cream"/></svg>
+            <h3>A Family Place</h3>
+            <p>A working family farm where horses, land, and people are all cared for.</p>
           </div>
           <div class="feature">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 42s-15-9-15-20a8 8 0 0 1 15-4 8 8 0 0 1 15 4c0 11-15 20-15 20Z" /><path d="M24 20v10M19 25h10" /></svg>
-            <h3>Veterinary Expertise</h3>
-            <p>Home of Manolia Equine Veterinary Services, right here on the farm.</p>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 42s-15-9-15-20a8 8 0 0 1 15-4 8 8 0 0 1 15 4c0 11-15 20-15 20Z" class="fill-peach-soft"/><path d="M24 20v11M18.5 25.5h11" /></svg>
+            <h3>Home of Magnolia Equine</h3>
+            <p>The farm is home base for Magnolia Equine Veterinary Services.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- VETERINARY SERVICES -->
+    <!-- MAGNOLIA EQUINE VETERINARY SERVICES -->
     <section class="section" id="vet">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Manolia Equine Veterinary Services</p>
-          <h2>Caring for Horses Across the Upstate</h2>
-          <p>Based at Garden Hill Farm, Manolia Equine Veterinary Services provides veterinary care for horses in Lyman and the surrounding area.</p>
+          <p class="eyebrow">Magnolia Equine Veterinary Services</p>
+          <h2>Mobile horse care, based right here</h2>
+          <p>Magnolia Equine is a mobile veterinary practice that provides onsite care for the equine community across Upstate South Carolina and Western North Carolina.</p>
         </div>
 
-        <!-- TODO: Confirm this list matches the services Manolia actually offers -->
+        <div class="vet-card">
+          <div class="vet-badge" aria-hidden="true">KG</div>
+          <div>
+            <h3>Kendrick Govan, DVM, DACT</h3>
+            <p>Dr. Govan is a Diplomate of the American College of Theriogenologists (DACT), the board certification for veterinarians specializing in animal reproduction.</p>
+          </div>
+        </div>
+
         <div class="services">
           <article class="service">
-            <h3>Wellness &amp; Preventive Care</h3>
-            <p>Annual exams, vaccinations, Coggins testing, and parasite control programs.</p>
+            <h3>Reproduction</h3>
+            <p>Breeding and reproductive care for horses, backed by board certification in theriogenology.</p>
           </article>
           <article class="service">
-            <h3>Dentistry</h3>
-            <p>Routine dental exams and floating to keep horses comfortable and eating well.</p>
+            <h3>Equine Dentistry</h3>
+            <p>Dental care to keep horses comfortable and eating well.</p>
           </article>
           <article class="service">
-            <h3>Lameness Evaluation</h3>
-            <p>Thorough exams to find the source of soundness problems and plan treatment.</p>
-          </article>
-          <article class="service">
-            <h3>Sick Horse Care</h3>
-            <p>Diagnosis and treatment for colic, injuries, illness, and other concerns.</p>
-          </article>
-          <article class="service">
-            <h3>Pre-Purchase Exams</h3>
-            <p>Careful evaluations to help buyers make informed decisions.</p>
-          </article>
-          <article class="service">
-            <h3>Health Certificates</h3>
-            <p>Paperwork for travel, shows, and sales.</p>
+            <h3>Wellness Services</h3>
+            <p>Preventive care to keep horses healthy year-round.</p>
           </article>
         </div>
 
         <div class="callout">
           <div>
-            <h3>Schedule an Appointment</h3>
-            <p>Reach out to set up a farm call or ask about services.</p>
+            <h3>Schedule a farm call</h3>
+            <p>Magnolia Equine comes to you, throughout Upstate SC and Western NC.</p>
           </div>
-          <a class="btn btn-primary" href="#visit">Contact Us</a>
+          <div class="callout-actions">
+            <a class="btn btn-light" href="tel:+13364075700">Call 336.407.5700</a>
+            <a class="btn btn-outline-light" href="https://magnoliaequinevet.com" target="_blank" rel="noopener">Visit magnoliaequinevet.com</a>
+          </div>
         </div>
       </div>
     </section>
@@ -139,7 +172,7 @@
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Gallery</p>
-          <h2>Life at Garden Hill</h2>
+          <h2>Around the farm</h2>
         </div>
         <div class="gallery">
           <div class="photo" data-photo="images/gallery-1.jpg" role="img" aria-label="Garden Hill Farm photo 1"><span class="photo-label">Photo coming soon</span></div>
@@ -152,33 +185,31 @@
       </div>
     </section>
 
-    <!-- VISIT / CONTACT -->
-    <section class="section" id="visit">
+    <!-- CONTACT -->
+    <section class="section" id="contact">
       <div class="container split">
         <div class="split-text">
           <p class="eyebrow">Contact</p>
-          <h2>Get in Touch</h2>
-          <p>For veterinary appointments or questions about the farm, please reach out.</p>
-          <!-- TODO: Replace the bracketed placeholders with real contact details -->
+          <h2>Get in touch</h2>
+          <p>For veterinary appointments and questions, contact Magnolia Equine Veterinary Services.</p>
           <dl class="contact">
             <div>
               <dt>Location</dt>
-              <dd>Lyman, South Carolina</dd>
+              <dd>Lyman, SC 29365</dd>
             </div>
             <div>
               <dt>Phone</dt>
-              <dd>[Phone number]</dd>
+              <dd><a href="tel:+13364075700">336.407.5700</a></dd>
             </div>
             <div>
               <dt>Email</dt>
-              <dd>[Email address]</dd>
+              <dd><a href="mailto:magnoliaequinevet@gmail.com">magnoliaequinevet@gmail.com</a></dd>
             </div>
             <div>
-              <dt>Hours</dt>
-              <dd>By appointment</dd>
+              <dt>Web</dt>
+              <dd><a href="https://magnoliaequinevet.com" target="_blank" rel="noopener">magnoliaequinevet.com</a></dd>
             </div>
           </dl>
-          <p class="note">Visits to the farm are by appointment only.</p>
         </div>
         <div class="map">
           <iframe
@@ -194,11 +225,11 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="brand brand-footer">
-        <img src="assets/logo.svg" alt="" width="36" height="36">
+        <img src="assets/logo.svg" alt="" width="40" height="40">
         <span>Garden Hill Farm</span>
       </div>
-      <p>Lyman, South Carolina &middot; Home of Manolia Equine Veterinary Services</p>
-      <p class="copyright">&copy; <span id="year">2026</span> Garden Hill Farm. All rights reserved.</p>
+      <p>A family farm in Lyman, South Carolina &middot; Home of Magnolia Equine Veterinary Services</p>
+      <p class="copyright">&copy; <span id="year">2026</span> Garden Hill Farm</p>
     </div>
   </footer>
 
