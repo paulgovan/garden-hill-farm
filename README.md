@@ -19,7 +19,7 @@ images/             Put photos here (see images/README.md)
 
 Search `index.html` for `TODO`:
 
-- Add family history to the "Our Story" section (when the peach orchard was planted, when the family came to the farm, etc.)
+- Add family history to the "Our Story" section (when the family came to the farm, etc.)
 
 Vet details (Dr. Govan, services, phone, email) come from magnoliaequinevet.com. If they change there, update them here too.
 

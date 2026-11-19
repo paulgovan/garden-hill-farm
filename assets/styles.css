@@ -188,7 +188,7 @@ p { margin: 0 0 1em; }
   min-height: 92svh;
   display: flex;
   align-items: flex-start;
-  background: linear-gradient(180deg, #fde9d4 0%, #fbd9bb 45%, #f6c49c 100%);
+  background: linear-gradient(180deg, #e4e8e6 0%, #efebe2 45%, #f4e6d4 75%, #f2dcc4 100%);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -270,10 +270,7 @@ p { margin: 0 0 1em; }
   aspect-ratio: 4 / 3;
   border-radius: var(--radius);
   overflow: hidden;
-  background:
-    radial-gradient(circle at 25% 30%, rgba(240, 161, 114, 0.25) 0 8%, transparent 9%),
-    radial-gradient(circle at 70% 65%, rgba(240, 161, 114, 0.2) 0 6%, transparent 7%),
-    linear-gradient(160deg, var(--peach-light), var(--sage-light));
+  background: linear-gradient(160deg, var(--cream-dark), var(--sage-light));
   background-size: cover;
   background-position: center;
   display: grid;
@@ -313,7 +310,6 @@ p { margin: 0 0 1em; }
   stroke-linejoin: round;
 }
 
-.feature .fill-peach { fill: var(--peach); stroke: var(--soil); }
 .feature .fill-peach-soft { fill: var(--peach-soft); }
 .feature .fill-leaf { fill: var(--sage); }
 .feature .fill-barn { fill: var(--barn); stroke: var(--barn-dark); }
