@@ -21,18 +21,6 @@
   links.forEach((a) => a.addEventListener("click", () => setMenu(false)));
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") setMenu(false); });
 
-  // Photos: any element with data-photo="images/..." shows that image once
-  // the file exists. Until then, the styled placeholder stays visible.
-  document.querySelectorAll("[data-photo]").forEach((el) => {
-    const src = el.getAttribute("data-photo");
-    const img = new Image();
-    img.onload = () => {
-      el.style.backgroundImage = `url("${src}")`;
-      el.classList.add("has-photo");
-    };
-    img.src = src;
-  });
-
   // Footer year
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();

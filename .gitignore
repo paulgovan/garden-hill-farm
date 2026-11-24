@@ -1,4 +1,9 @@
 .DS_Store
 .claude/
-# Original camera photos (large, may contain GPS data); only edited copies are published
-images/IMG_*
+# Original photos (large, may contain GPS data) stay local.
+# Only the edited copies listed here are published.
+images/*
+!images/README.md
+!images/hero.jpg
+!images/farm.jpg
+!images/gallery-*.jpg

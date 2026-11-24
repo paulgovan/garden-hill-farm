@@ -1,16 +1,13 @@
 # Photos
 
-Drop photos into this folder using these exact filenames and they will show up on the site automatically. No code changes needed. Until a file exists, the site shows a styled "Photo coming soon" placeholder in its place.
+Published files (everything else in this folder is ignored by git and stays local):
 
-| Filename        | Where it appears                        | Suggested shape        |
-|-----------------|-----------------------------------------|------------------------|
-| `hero.jpg`      | Full-screen banner at the top           | Wide landscape (e.g. 2400×1400) |
-| `farm.jpg`      | "The Farm" section                      | Portrait (4:5)         |
-| `gallery-1.jpg` … `gallery-6.jpg` | Gallery grid          | Landscape (4:3)        |
+| Filename | Where it appears | Size |
+|---|---|---|
+| `hero.jpg` | Banner at the top | 2200 x 1496 |
+| `farm.jpg` | Our Story | 1000 x 1250 |
+| `gallery-1.jpg` to `gallery-18.jpg` | Gallery | 1200 x 900 |
 
-Original camera files (`IMG_*`) are kept here for reference but are ignored by git, so they're never published. Only the edited, resized copies above go on the site, and those have their location/camera metadata stripped.
+To swap a photo, replace the file using the same name and update its `alt` text in `index.html`. To add one, also add an `<img>` line to the gallery in `index.html`.
 
-Tips:
-- Keep each file under about 500 KB so the page loads quickly (resize to ~2000 px wide for the hero, ~1200 px for the rest).
-- Filenames are case-sensitive on GitHub Pages: use `hero.jpg`, not `Hero.JPG`.
-- To use a different file type (e.g. `.png` or `.webp`), change the matching `data-photo="images/..."` value in `index.html`.
+Before publishing a photo: convert it to sRGB (iPhone photos are often Display P3), strip location/camera metadata, and check that no house numbers or other identifying details are readable.

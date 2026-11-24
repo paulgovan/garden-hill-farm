@@ -9,7 +9,7 @@ It's a plain static site (HTML, CSS, a little JavaScript) with no build step, so
 ```
 index.html          The page
 assets/styles.css   Styling
-assets/main.js      Mobile menu, header, and photo loading
+assets/main.js      Mobile menu and header
 assets/logo.svg     Logo (also used as favicon.svg)
 images/             Put photos here (see images/README.md)
 .nojekyll           Tells GitHub Pages to serve files as-is
@@ -25,7 +25,7 @@ Vet details (Dr. Govan, services, phone, email) come from magnoliaequinevet.com.
 
 ## Adding photos
 
-See [images/README.md](images/README.md). Drop files in with the listed names and they appear automatically.
+See [images/README.md](images/README.md). It lists the published photos and how to swap or add one.
 
 ## Preview locally
 
